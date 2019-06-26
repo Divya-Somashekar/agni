@@ -1,5 +1,13 @@
 package com.divya.learning.geeksforgeeks.amazon.online_test_preparetion;
 
+/*
+* Amazon transport centre ships there items in trucks of some size. And each item take some space. And for safety purpose we have to keep a some given space empty in truck.
+
+We are given a array of size of items[10,20,30,40], size of truck(100) and safety space(40). We have to find a pair of items which can be shipped safely and utilising maximum space in truck.
+
+So in given example we will ship pair(20 & 40) with keeping 40 space.
+* */
+
 public class _2_FindPairClosestToSumInArray {
     // Prints the pair with sum cloest to x
     static void printClosest(int arr[], int n, int x)
